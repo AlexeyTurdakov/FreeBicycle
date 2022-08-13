@@ -5,6 +5,8 @@
 @import "./_variables.scss";
 @import "./header.scss";
 @import "./menu-burger.scss";
+@import "./block-text.scss";
+@import "./block-with-images.scss";
 @import "./footer.scss";
 
 body {
@@ -19,6 +21,7 @@ body {
 .container {
   max-width: 1130px;
   padding: 0 15px;
+  margin: 0 auto;
 }
 
 /*
@@ -29,7 +32,7 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  position: relative;
+  // position: relative;
   img {
     display: none;
   }
@@ -60,7 +63,4 @@ body {
     top: 0;
     left: 0;
   }
-}
-
-.content {
 }
