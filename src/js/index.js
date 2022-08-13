@@ -24,11 +24,9 @@ function menuOnClick() {
 
 /*Adaptive block-text remove class .generation__block_mini */
 let blockText = document.querySelectorAll(".generation__block_mini");
-console.log(blockText);
 
 if (document.documentElement.clientWidth <= 1024) {
   for (let i = 0; i < blockText.length; i++) {
     blockText[i].classList.remove("generation__block_mini");
-    console.log(blockText[i]);
   }
 }
