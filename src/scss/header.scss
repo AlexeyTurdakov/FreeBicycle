@@ -18,7 +18,7 @@
     transform: translate(-50%, -50%);
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     .header__menu {
       display: none;
     }
@@ -29,7 +29,7 @@
 #menu {
   display: none;
 
-  @media (max-width: 767px) {
+  @media (max-width: 768px) {
     display: block;
   }
 }
