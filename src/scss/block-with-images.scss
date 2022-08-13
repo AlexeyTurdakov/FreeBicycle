@@ -2,7 +2,7 @@
   &__row {
     display: flex;
 
-    @media (max-width: 768px) {
+    @media (max-width: 1024px) {
       flex-direction: column;
     }
   }
@@ -10,24 +10,8 @@
   &__column {
     flex: 0 1 33.333%;
 
-    @media (max-width: 1000px) {
-      flex: 0 1 40%;
-    }
-
-    @media (max-width: 800px) {
-      flex: 0 1 45%;
-    }
-
     &_big {
       flex: 0 1 66.667%;
-
-      @media (max-width: 1000px) {
-        flex: 0 1 60%;
-      }
-
-      @media (max-width: 800px) {
-        flex: 0 1 55%;
-      }
     }
   }
 
@@ -50,7 +34,7 @@
   display: block;
   position: relative;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1024px) {
     height: auto;
     padding: 0 0 70% 0;
   }
