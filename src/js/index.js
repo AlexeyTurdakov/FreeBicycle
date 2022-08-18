@@ -30,3 +30,16 @@ if (document.documentElement.clientWidth <= 1024) {
     blockText[i].classList.remove("generation__block_mini");
   }
 }
+
+/*slick-slider */
+$(document).ready(function () {
+  $(".slider__body").slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: false,
+    dots: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+  });
+});
