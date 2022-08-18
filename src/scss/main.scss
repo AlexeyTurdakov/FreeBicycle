@@ -2,12 +2,15 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap");
 
-@import "./_variables.scss";
-@import "./header.scss";
-@import "./menu-burger.scss";
-@import "./block-text.scss";
-@import "./block-with-images.scss";
-@import "./footer.scss";
+@import "./blocks/_variables.scss";
+@import "./blocks/header.scss";
+@import "./blocks/menu-burger.scss";
+@import "./blocks/block-text.scss";
+@import "./blocks/block-with-images.scss";
+@import "./blocks/slider.scss";
+@import "./blocks/shop-section.scss";
+@import "./blocks/subscribe.scss";
+@import "./blocks/footer.scss";
 
 body {
   font-family: $fontFamily, sans-serif;
