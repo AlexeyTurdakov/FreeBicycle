@@ -385,22 +385,55 @@
           </section>
 
           <section class="subscribe">
-            
-              <div class="subscribe__body">
-                <div class="subscribe__logo">
-                  <img src="./img/logo.png" alt="logo" />
-                </div>
-                <div class="subscribe__label">Stay on the saddle!</div>
-                <form action="#" class="subscribe__form">
-                  <input class="subscribe__input" name="email" type="email" placeholder="enter your email..."></input>
-                  <a href="#" class="subscribe__button">GO</a>
-                </form>
+            <div class="subscribe__body">
+              <div class="subscribe__logo">
+                <img src="./img/logo.png" alt="logo" />
               </div>
-            
+              <div class="subscribe__label">Stay on the saddle!</div>
+              <form action="#" class="subscribe__form" method="post">
+                <input
+                  name="email"
+                  type="email"
+                  class="subscribe__input"
+                  placeholder="enter your email..."
+                />
+                <button type="submit" class="subscribe__button">GO</button>
+              </form>
+            </div>
           </section>
         </div>
 
-        <footer class="footer"></footer>
+        <footer class="footer">
+          <div class="container">
+            <div class="footer__row">
+              <div class="footer__column">
+                <div class="footer__block-adress">
+                  <span><b>AOD New York</b></span>
+                  <span>2250 Lexington Avenue</span>
+                  <span
+                    >New York, NY 10035 - <a href="#">info@domain.com</a></span
+                  >
+                </div>
+              </div>
+              <div class="footer__column">
+                <div class="footer__block-links">
+                  <a href="#"
+                    ><img src="./img/facebook.png" alt="twitter icon"
+                  /></a>
+                  <a href="#"
+                    ><img src="./img/twitter.png" alt="facebook icon"
+                  /></a>
+                  <a href="#"><img src="./img/p.png" alt="p icon" /></a>
+                </div>
+              </div>
+              <div class="footer__column">
+                <div class="footer__logo">
+                  <img src="./img/yebo-logo.png" alt="yebo logo" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
       </main>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
