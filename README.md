@@ -1,5 +1,8 @@
 # FreeBicycle
 
+Сайт: https://alexeyturdakov.github.io/FreeBicycle/
+
+Локально:
 Скачайте проект с git репозитория и запустите его в консоли:
 
 npm install
